@@ -48,8 +48,8 @@ font-family: 'Source Sans Pro', sans-serif; */
   --white: #fff;
   --gray: #868e96;
   --gray-dark: #343a40;
-  --primary: #1e76bd;
-  --primary-alt: #1e76bd;
+  --primary: #55a43d;
+  --primary-alt: #458632;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -6170,7 +6170,7 @@ button,
   cursor: pointer; }
 
 .theme-color {
-  color: #033f63; }
+  color: #458632; }
 
 .p-lg {
   font-size: 16px;
@@ -6373,7 +6373,7 @@ h6 {
   display: inline-block;
   height: 3px;
   width: 53px;
-  background-color: #1e76bd; }
+  background-color: #458632; }
   .h-decor + h5 {
     line-height: 34px;
     margin-bottom: 0; }
@@ -6465,7 +6465,7 @@ h6 {
   font-weight: 600;
   font-family: "Poppins", serif;
   letter-spacing: .6px;
-  color: #1e76bd; }
+  color: #458632; }
   .btn-link [class*='icon'] {
     position: relative;
     display: inline-block;
@@ -6661,7 +6661,7 @@ body:not(.touch) .btn-hover-fill:hover {
 
 .btn-gradient, body:not(.touch) .btn-gradient:focus {
   border: 0;
-  background-image: linear-gradient(to right, #1e76bd 0%, #469ce2 100%);
+  background-image: linear-gradient(to right, #458632 0%, #80c86a 100%);
   background-repeat: repeat-x;
   color: #fff;
   box-shadow: none; }
@@ -7567,10 +7567,10 @@ ul.services-list {
   .icn-text:hover {
     text-decoration: none; }
     .icn-text:hover .icn-text-title {
-      color: #1e76bd;
+      color: #458632;
       transition: 0.25s; }
     .icn-text:hover .icn-text-circle {
-      box-shadow: 0 0 0 7px rgba(30, 118, 189, 0.2); }
+      box-shadow: 0 0 0 7px rgb(76 175 80 / 37%); }
   .icn-text .icn-text-title {
     margin-bottom: 0;
     transition: 0.25s; }
@@ -7594,7 +7594,7 @@ ul.services-list {
     flex-basis: 81px;
     width: 81px;
     height: 81px;
-    background-image: linear-gradient(to right, #033f63 0%, #469ce2 100%);
+    background-image: linear-gradient(to right, #458632 0%, #80c86a 100%);
     background-repeat: repeat-x;
     border-radius: 50%;
     color: #fff;
@@ -9291,7 +9291,7 @@ form label {
     margin: 0 4px;
     position: relative;
     z-index: 3;
-    color: #1e76bd;
+    color: #5fba47;
     font-size: 18px;
     line-height: 35px;
     width: 35px;
@@ -10617,7 +10617,7 @@ body.noScroll {
   word-spacing: -2px;
   align-items: center;
   min-height: 48px;
-  background: #1e76bd; }
+  background: #a9df03; }
   .header-topline,
   .header-topline a {
     color: #fff; }
@@ -11591,7 +11591,7 @@ body.noScroll {
 
 .footer-bottom {
   padding: 11px 0;
-  background: #1e76bd;
+  background: #a9df03;
   font-size: 15px;
   line-height: 26px;
   font-weight: 300; }
@@ -11660,7 +11660,7 @@ body.noScroll {
     margin-right: 4px;
     width: 48px;
     height: 48px;
-    color: #1e76bd;
+    color: #5fba47;
     background-color: #fff;
     text-align: center;
     border-radius: 50%;
@@ -11689,7 +11689,7 @@ body.noScroll {
       left: 0;
       top: 4px;
       font-size: 18px;
-      color: #1e76bd; }
+      color: #5fba47; }
       @media (max-width: 767px) {
         .footer ul.icn-list li > [class*='icon'] {
           font-size: 14px;
@@ -11750,7 +11750,7 @@ body.noScroll {
   width: 63px;
   height: 63px;
   border-radius: 50%;
-  background: #1e76bd;
+  background: #5fba47;
   font-size: 18px;
   line-height: 63px;
   color: #fff;
@@ -12043,7 +12043,7 @@ body.noScroll {
     position: relative;
     top: 5%;
     z-index: 0;
-    color: #033f63;
+    color: #458632;
     transition: 0.5s ease; }
     .service-box-icon .icon-emergency {
       font-size: .75em;
@@ -12075,7 +12075,7 @@ body.noScroll {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    color: #1e76bd;
+    color: #458632;
     opacity: 0;
     transition: 0.2s ease 0.1s; }
   .service-box .service-box-icon + .service-box-title {
@@ -13308,14 +13308,14 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
     .banner-call-phone {
       font-size: 18px; } }
   .banner-call-phone:hover {
-    color: #1e76bd;
+    color: #458632;
     text-decoration: none; }
   .banner-call-phone [class*='icon'] {
     position: relative;
     top: -1px;
     padding-right: 12px;
     font-size: 19px;
-    color: #1e76bd; }
+    color: #458632; }
     @media (max-width: 1023px) {
       .banner-call-phone [class*='icon'] {
         font-size: 14px; } }
@@ -13495,7 +13495,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
     .faq-item [data-toggle='collapse'] span:first-child {
       font-size: 16px;
       min-width: 26px;
-      color: #1e76bd; }
+      color: #458632; }
       @media (max-width: 767px) {
         .faq-item [data-toggle='collapse'] span:first-child {
           font-size: 14px; } }
@@ -13508,7 +13508,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
       content: '\e932';
       font-family: 'dentco';
       font-size: 12px;
-      color: #1e76bd;
+      color: #458632;
       transform: translateY(-50%); }
     .faq-item [data-toggle='collapse'][aria-expanded="true"]:after {
       content: '\e931'; }
@@ -13623,10 +13623,10 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
         .faq-wrap .nav-pills .nav-link:last-child:after {
           display: none; }
     .faq-wrap .nav-pills .nav-link.active {
-      color: #1e76bd; }
+      color: #458632; }
     .faq-wrap .nav-pills [class*='icon'] {
       padding-right: 10px;
-      color: #1e76bd; }
+      color: #458632; }
   .faq-wrap .nav-pills--noborder .nav-link {
     margin: 0 26px 0 0;
     padding: 0;
@@ -14248,7 +14248,7 @@ body:not(.touch) .faq-wrap .nav-link:hover {
 .review-author-position {
   padding: 0 1px;
   font-style: italic;
-  color: #1e76bd; }
+  color: #60ba45; }
 .review .star-rating:not(:first-child) {
   margin-left: 15px; }
 
@@ -16747,17 +16747,17 @@ body:not(.touch) .quickLinks.stuck {
     top: 6px;
     font-size: 14px; }
   .quickLinks .col:nth-child(1) > .link {
-    background-color: #1b6aaa; }
+    background-color: #458632; }
   .quickLinks .col:nth-child(2) > .link {
-    background-color: #1e76bd; }
+    background-color: #55a43d; }
   .quickLinks .col:nth-child(3) > .link {
-    background-color: #2f81c8; }
+    background-color: #60ba45; }
   .quickLinks .col:nth-child(4) > .link {
-    background-color: #3890d2; }
+    background-color: #80c86a; }
   .quickLinks .col:nth-child(5) > .link {
-    background-color: #43a0dd; }
+    background-color: #99D388; }
   .quickLinks .col:nth-child(6) > .link {
-    background-color: #4caee6; }
+    background-color: #B3DEA6; }
 
 .quickLinks.stuck .link-drop {
   top: -1000%; }
